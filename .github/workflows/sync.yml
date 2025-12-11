@@ -1,7 +1,5 @@
 name: Sync Docker Images AliYun
 on:
-  schedule:
-    - cron: '0 0 * * 5'  # 每周五 00:00 UTC 执行任务
   workflow_dispatch:  # 允许手动触发同步
 
 jobs:
